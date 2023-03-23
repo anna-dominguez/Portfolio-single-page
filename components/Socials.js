@@ -1,8 +1,5 @@
 const Socials = () => (
-  <div
-    role="banner"
-    className="w-full grid gap-5 sm:flex sm:justify-between sm:object-center"
-  >
+  <div className="w-full grid gap-5 sm:flex sm:justify-between sm:object-center">
     <div className="text-center font-bold text-headingXS sm:text-headingS tracking-[-0.44px]">
       adamkeyes
     </div>

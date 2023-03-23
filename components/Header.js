@@ -7,7 +7,7 @@ import Socials from './Socials'
 
 const Header = () => {
   return (
-    <div className="relative w-44 sm:w-full pt-10 sm:px-10 lg:px-40 flex flex-col">
+    <header className="relative w-44 sm:w-full pt-10 sm:px-10 lg:px-40 flex flex-col">
       <Socials />
       <Image
         className="absolute sm:hidden top-0 z-0"
@@ -30,7 +30,7 @@ const Header = () => {
         height="720"
         src={ProfileDesktop}
       />
-    </div>
+    </header>
   )
 }
 
