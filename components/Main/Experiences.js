@@ -14,9 +14,9 @@ const Experiences = () => (
         key={name}
         className="grid gap-px sm:gap-3.5 text-center sm:text-left"
       >
-        <div className="text-headingS sm:text-headingL tracking-[-1px[">
+        <h2 className="text-headingS sm:text-headingL tracking-[-1px[">
           {name}
-        </div>
+        </h2>
         <div className="text-bodyS sm:text-bodyM text-grey">{time}</div>
       </div>
     ))}

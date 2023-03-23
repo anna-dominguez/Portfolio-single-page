@@ -166,8 +166,11 @@ const Contact = () => {
         {errorMessage && errorMessage !== 1 && 'Sorry, invalid format here'}
       </div>
       <div className="flex justify-end">
-        <button className="hover:text-green pb-2.5 cursor-pointer border-solid border-b-2 border-green text-bodyS uppercase tracking-[2.29px]">
-          <div onClick={() => handleSubmit()}>Send message</div>
+        <button
+          onClick={() => handleSubmit()}
+          className="hover:text-green pb-2.5 cursor-pointer border-solid border-b-2 border-green text-bodyS uppercase tracking-[2.29px]"
+        >
+          Send message
         </button>
       </div>
       {typeof sendFailed === 'boolean' && (

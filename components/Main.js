@@ -18,21 +18,25 @@ const Main = () => {
           Based in the UK, I'm a front-end developer passionate about building
           accessible web apps that users love.
         </div>
-        <button className="hover:text-green pb-2.5 cursor-pointer border-solid border-b-2 border-green text-bodyS uppercase tracking-[2.29px]">
-          <a href="#contact">Contact me</a>
-        </button>
+        <a href="#contact">
+          <button className="hover:text-green pb-2.5 cursor-pointer border-solid border-b-2 border-green text-bodyS uppercase tracking-[2.29px]">
+            Contact me
+          </button>
+        </a>
       </section>
       <section className="border-y-[1px] sm:border-b-0 border-white">
         <Experiences />
       </section>
-      <section className="my-20">
-        <div className="mb-10 flex justify-between items-center">
+      <section className="my-20 sm:my-24 lg:my-36">
+        <div className="mb-10 sm:mb-14 lg:mb-20 flex justify-between items-center">
           <h2 className="font-bold text-headingM sm:heading-XL lg:text-headingXXL tracking-[-1.14px] sm:tracking-[-2.05px] lg:tracking-[-2.5px]">
             Projects
           </h2>
-          <button className="hover:text-green pb-2.5 cursor-pointer border-solid border-b-2 border-green text-bodyS uppercase tracking-[2.29px]">
-            <a href="#contact">Contact me</a>
-          </button>
+          <a href="#contact">
+            <button className="hover:text-green pb-2.5 cursor-pointer border-solid border-b-2 border-green text-bodyS uppercase tracking-[2.29px]">
+              Contact me
+            </button>
+          </a>
         </div>
         <Projects />
       </section>
