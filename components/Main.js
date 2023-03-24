@@ -1,4 +1,3 @@
-import Button from '@/tools/Button'
 import Experiences from './Main/Experiences'
 import Projects from './Main/Projects'
 
@@ -18,10 +17,8 @@ const Main = () => {
           Based in the UK, I'm a front-end developer passionate about building
           accessible web apps that users love.
         </div>
-        <a href="#contact">
-          <button className="hover:text-green pb-2.5 cursor-pointer border-solid border-b-2 border-green text-bodyS uppercase tracking-[2.29px]">
-            Contact me
-          </button>
+        <a className="btn-primary" href="#contact">
+          Contact me
         </a>
       </section>
       <section className="border-y-[1px] sm:border-b-0 border-white">
@@ -32,10 +29,8 @@ const Main = () => {
           <h2 className="font-bold text-headingM sm:heading-XL lg:text-headingXXL tracking-[-1.14px] sm:tracking-[-2.05px] lg:tracking-[-2.5px]">
             Projects
           </h2>
-          <a href="#contact">
-            <button className="hover:text-green pb-2.5 cursor-pointer border-solid border-b-2 border-green text-bodyS uppercase tracking-[2.29px]">
-              Contact me
-            </button>
+          <a className="btn-primary" href="#contact">
+            Contact me
           </a>
         </div>
         <Projects />

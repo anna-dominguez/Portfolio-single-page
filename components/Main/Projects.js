@@ -13,8 +13,6 @@ import Project5Large from '../../public/images/thumbnail-project-5-large.webp'
 import Project6Small from '../../public/images/thumbnail-project-6-small.webp'
 import Project6Large from '../../public/images/thumbnail-project-6-large.webp'
 
-import Button from '@/tools/Button'
-
 const Projects = () => {
   return (
     <div className="grid gap-y-10 sm:grid-cols-2 sm:gap-x-6 sm:gap-y-14 lg:gap-x-7 lg:gap-y-16 uppercase justify-center">
@@ -31,12 +29,8 @@ const Projects = () => {
             src={Project1Small}
           />
           <div className="max-lg:invisible hidden group-hover:grid absolute bg-black opacity-75 top-0 left-0 right-0 bottom-0 content-center justify-center">
-            <button className="hover:text-green mb-12 pb-2.5 cursor-pointer border-solid border-b-2 border-green text-bodyS uppercase tracking-[2.29px]">
-              View Project
-            </button>
-            <button className="hover:text-green pb-2.5 cursor-pointer border-solid border-b-2 border-green text-bodyS uppercase tracking-[2.29px]">
-              View Code
-            </button>
+            <button className="btn-primary mb-12">View Project</button>
+            <button className="btn-primary">View Code</button>
           </div>
         </div>
         <div className="mt-5 text-headingXS">Design portfolio</div>
@@ -45,12 +39,8 @@ const Projects = () => {
           <div>CSS</div>
         </div>
         <div className="mt-5 grid grid-flow-col auto-cols-max gap-x-7 lg:hidden">
-          <button className="hover:text-green pb-2.5 cursor-pointer border-solid border-b-2 border-green text-bodyS uppercase tracking-[2.29px]">
-            View Project
-          </button>
-          <button className="hover:text-green pb-2.5 cursor-pointer border-solid border-b-2 border-green text-bodyS uppercase tracking-[2.29px]">
-            View Code
-          </button>
+          <button className="btn-primary">View Project</button>
+          <button className="btn-primary">View Code</button>
         </div>
       </div>
       <div className="text-left">
@@ -66,12 +56,8 @@ const Projects = () => {
             src={Project2Small}
           />
           <div className="max-lg:invisible hidden group-hover:grid absolute bg-black opacity-75 top-0 left-0 right-0 bottom-0 content-center justify-center">
-            <button className="hover:text-green mb-12 pb-2.5 cursor-pointer border-solid border-b-2 border-green text-bodyS uppercase tracking-[2.29px]">
-              View Project
-            </button>
-            <button className="hover:text-green pb-2.5 cursor-pointer border-solid border-b-2 border-green text-bodyS uppercase tracking-[2.29px]">
-              View Code
-            </button>
+            <button className="btn-primary mb-12">View Project</button>
+            <button className="btn-primary">View Code</button>
           </div>
         </div>
         <div className="mt-5 text-headingXS">E-learning landing page</div>
@@ -80,12 +66,8 @@ const Projects = () => {
           <div>CSS</div>
         </div>
         <div className="mt-5 grid grid-flow-col auto-cols-max gap-x-7 lg:hidden">
-          <button className="hover:text-green pb-2.5 cursor-pointer border-solid border-b-2 border-green text-bodyS uppercase tracking-[2.29px]">
-            View Project
-          </button>
-          <button className="hover:text-green pb-2.5 cursor-pointer border-solid border-b-2 border-green text-bodyS uppercase tracking-[2.29px]">
-            View Code
-          </button>
+          <button className="btn-primary">View Project</button>
+          <button className="btn-primary">View Code</button>
         </div>
       </div>
       <div className="text-left">
@@ -97,12 +79,8 @@ const Projects = () => {
           />
           <Image alt="Todo web app" className="sm:hidden" src={Project3Small} />
           <div className="max-lg:invisible hidden group-hover:grid absolute bg-black opacity-75 top-0 left-0 right-0 bottom-0 content-center justify-center">
-            <button className="hover:text-green mb-12 pb-2.5 cursor-pointer border-solid border-b-2 border-green text-bodyS uppercase tracking-[2.29px]">
-              View Project
-            </button>
-            <button className="hover:text-green pb-2.5 cursor-pointer border-solid border-b-2 border-green text-bodyS uppercase tracking-[2.29px]">
-              View Code
-            </button>
+            <button className="btn-primary mb-12">View Project</button>
+            <button className="btn-primary">View Code</button>
           </div>
         </div>
         <div className="mt-5 text-headingXS">Todo web app</div>
@@ -112,12 +90,8 @@ const Projects = () => {
           <div>JavaScript</div>
         </div>
         <div className="mt-5 grid grid-flow-col auto-cols-max gap-x-7 lg:hidden">
-          <button className="hover:text-green pb-2.5 cursor-pointer border-solid border-b-2 border-green text-bodyS uppercase tracking-[2.29px]">
-            View Project
-          </button>
-          <button className="hover:text-green pb-2.5 cursor-pointer border-solid border-b-2 border-green text-bodyS uppercase tracking-[2.29px]">
-            View Code
-          </button>
+          <button className="btn-primary">View Project</button>
+          <button className="btn-primary">View Code</button>
         </div>
       </div>
       <div className="text-left">
@@ -133,12 +107,8 @@ const Projects = () => {
             src={Project4Small}
           />
           <div className="max-lg:invisible hidden group-hover:grid absolute bg-black opacity-75 top-0 left-0 right-0 bottom-0 content-center justify-center">
-            <button className="hover:text-green mb-12 pb-2.5 cursor-pointer border-solid border-b-2 border-green text-bodyS uppercase tracking-[2.29px]">
-              View Project
-            </button>
-            <button className="hover:text-green pb-2.5 cursor-pointer border-solid border-b-2 border-green text-bodyS uppercase tracking-[2.29px]">
-              View Code
-            </button>
+            <button className="btn-primary mb-12">View Project</button>
+            <button className="btn-primary">View Code</button>
           </div>
         </div>
         <div className="mt-5 text-headingXS">Entertainment web app</div>
@@ -148,12 +118,8 @@ const Projects = () => {
           <div>JavaScript</div>
         </div>
         <div className="mt-5 grid grid-flow-col auto-cols-max gap-x-7 lg:hidden">
-          <button className="hover:text-green pb-2.5 cursor-pointer border-solid border-b-2 border-green text-bodyS uppercase tracking-[2.29px]">
-            View Project
-          </button>
-          <button className="hover:text-green pb-2.5 cursor-pointer border-solid border-b-2 border-green text-bodyS uppercase tracking-[2.29px]">
-            View Code
-          </button>
+          <button className="btn-primary">View Project</button>
+          <button className="btn-primary">View Code</button>
         </div>
       </div>
       <div className="text-left">
@@ -165,12 +131,8 @@ const Projects = () => {
           />
           <Image alt="Memory Game" className="sm:hidden" src={Project5Small} />
           <div className="max-lg:invisible hidden group-hover:grid absolute bg-black opacity-75 top-0 left-0 right-0 bottom-0 content-center justify-center">
-            <button className="hover:text-green mb-12 pb-2.5 cursor-pointer border-solid border-b-2 border-green text-bodyS uppercase tracking-[2.29px]">
-              View Project
-            </button>
-            <button className="hover:text-green pb-2.5 cursor-pointer border-solid border-b-2 border-green text-bodyS uppercase tracking-[2.29px]">
-              View Code
-            </button>
+            <button className="btn-primary mb-12">View Project</button>
+            <button className="btn-primary">View Code</button>
           </div>
         </div>
         <div className="mt-5 text-headingXS">Memory Game</div>
@@ -180,12 +142,8 @@ const Projects = () => {
           <div>JavaScript</div>
         </div>
         <div className="mt-5 grid grid-flow-col auto-cols-max gap-x-7 lg:hidden">
-          <button className="hover:text-green pb-2.5 cursor-pointer border-solid border-b-2 border-green text-bodyS uppercase tracking-[2.29px]">
-            View Project
-          </button>
-          <button className="hover:text-green pb-2.5 cursor-pointer border-solid border-b-2 border-green text-bodyS uppercase tracking-[2.29px]">
-            View Code
-          </button>
+          <button className="btn-primary">View Project</button>
+          <button className="btn-primary">View Code</button>
         </div>
       </div>
       <div className="text-left">
@@ -201,12 +159,8 @@ const Projects = () => {
             src={Project6Small}
           />
           <div className="max-lg:invisible hidden group-hover:grid absolute bg-black opacity-75 top-0 left-0 right-0 bottom-0 content-center justify-center">
-            <button className="hover:text-green mb-12 pb-2.5 cursor-pointer border-solid border-b-2 border-green text-bodyS uppercase tracking-[2.29px]">
-              View Project
-            </button>
-            <button className="hover:text-green pb-2.5 cursor-pointer border-solid border-b-2 border-green text-bodyS uppercase tracking-[2.29px]">
-              View Code
-            </button>
+            <button className="btn-primary mb-12">View Project</button>
+            <button className="btn-primary">View Code</button>
           </div>
         </div>
         <div className="mt-5 text-headingXS">Art gallery showcase</div>
@@ -216,12 +170,8 @@ const Projects = () => {
           <div>JavaScript</div>
         </div>
         <div className="mt-5 grid grid-flow-col auto-cols-max gap-x-7 lg:hidden">
-          <button className="hover:text-green pb-2.5 cursor-pointer border-solid border-b-2 border-green text-bodyS uppercase tracking-[2.29px]">
-            View Project
-          </button>
-          <button className="hover:text-green pb-2.5 cursor-pointer border-solid border-b-2 border-green text-bodyS uppercase tracking-[2.29px]">
-            View Code
-          </button>
+          <button className="btn-primary">View Project</button>
+          <button className="btn-primary">View Code</button>
         </div>
       </div>
     </div>

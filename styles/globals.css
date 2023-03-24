@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply hover:text-green pb-3 cursor-pointer border-solid border-b-2 border-green text-bodyS uppercase tracking-[2.29px];
+  }
+  .social {
+    @apply fill-white hover:fill-green cursor-pointer;
+  }
+  .input {
+    @apply uppercase text-bodyS tracking-[-0.22px] bg-darkGrey w-full pl-6;
+  }
+}
