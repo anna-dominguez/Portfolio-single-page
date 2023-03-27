@@ -19,11 +19,13 @@ const Projects = () => {
       <div className="text-left">
         <div className="lg:relative group">
           <Image
+            placeholder="blur"
             alt="Design Portfolio"
             className="max-sm:hidden"
             src={Project1Large}
           />
           <Image
+            placeholder="blur"
             alt="Design Portfolio"
             className="sm:hidden"
             src={Project1Small}
@@ -46,11 +48,13 @@ const Projects = () => {
       <div className="text-left">
         <div className="lg:relative group">
           <Image
+            placeholder="blur"
             alt="E-learning landing page"
             className="max-sm:hidden"
             src={Project2Large}
           />
           <Image
+            placeholder="blur"
             alt="E-learning landing page"
             className="sm:hidden"
             src={Project2Small}
@@ -73,11 +77,17 @@ const Projects = () => {
       <div className="text-left">
         <div className="lg:relative group">
           <Image
+            placeholder="blur"
             alt="Todo web app"
             className="max-sm:hidden"
             src={Project3Large}
           />
-          <Image alt="Todo web app" className="sm:hidden" src={Project3Small} />
+          <Image
+            placeholder="blur"
+            alt="Todo web app"
+            className="sm:hidden"
+            src={Project3Small}
+          />
           <div className="max-lg:invisible hidden group-hover:grid absolute bg-black opacity-75 top-0 left-0 right-0 bottom-0 content-center justify-center">
             <button className="btn-primary mb-12">View Project</button>
             <button className="btn-primary">View Code</button>
@@ -97,11 +107,13 @@ const Projects = () => {
       <div className="text-left">
         <div className="lg:relative group">
           <Image
+            placeholder="blur"
             alt="Entertainment web app"
             className="max-sm:hidden"
             src={Project4Large}
           />
           <Image
+            placeholder="blur"
             alt="Entertainment web app"
             className="sm:hidden"
             src={Project4Small}
@@ -125,11 +137,17 @@ const Projects = () => {
       <div className="text-left">
         <div className="lg:relative group">
           <Image
+            placeholder="blur"
             alt="Memory Game"
             className="max-sm:hidden"
             src={Project5Large}
           />
-          <Image alt="Memory Game" className="sm:hidden" src={Project5Small} />
+          <Image
+            placeholder="blur"
+            alt="Memory Game"
+            className="sm:hidden"
+            src={Project5Small}
+          />
           <div className="max-lg:invisible hidden group-hover:grid absolute bg-black opacity-75 top-0 left-0 right-0 bottom-0 content-center justify-center">
             <button className="btn-primary mb-12">View Project</button>
             <button className="btn-primary">View Code</button>
@@ -149,11 +167,13 @@ const Projects = () => {
       <div className="text-left">
         <div className="relative group">
           <Image
+            placeholder="blur"
             alt="Art Gallery Showcase"
             className="max-sm:hidden"
             src={Project6Large}
           />
           <Image
+            placeholder="blur"
             alt="Art Gallery Showcase"
             className="sm:hidden"
             src={Project6Small}

@@ -10,6 +10,7 @@ const Header = () => {
     <header className="relative w-44 sm:w-full pt-10 sm:px-10 lg:px-40 flex flex-col">
       <Banner />
       <Image
+        placeholder="blur"
         className="absolute sm:hidden top-0 z-0"
         alt="Profile picture"
         width="175"
@@ -17,6 +18,7 @@ const Header = () => {
         src={ProfileMobile}
       />
       <Image
+        placeholder="blur"
         className="absolute lg:hidden max-sm:hidden top-0 right-0 z-0"
         alt="Profile picture"
         width="322"
@@ -24,6 +26,7 @@ const Header = () => {
         src={ProfileTablet}
       />
       <Image
+        placeholder="blur"
         className="absolute max-lg:hidden top-0 right-40 z-0"
         alt="Profile picture"
         width="445"
