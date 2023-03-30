@@ -9,12 +9,12 @@ const Main = () => {
           Nice to
           <br className="lg:hidden max-sm:hidden" /> meet you! I'm{' '}
           <span className="underline decoration-green underline-offset-8 decoration-4 sm:decoration-[6px] sm:max-md:mt-2.5">
-            Adam Keyes
+            Anna Dominguez
           </span>
           .
         </h1>
         <div className="text-bodyS sm:text-bodyM sm:w-[425px] mb-6 sm:mb-8 lg:mb-16 text-grey">
-          Based in the UK, I'm a front-end developer passionate about building
+          Based in France, I'm a front-end developer passionate about building
           accessible web apps that users love.
         </div>
         <a className="btn-primary" href="#contact">

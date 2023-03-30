@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <div className="relative flex flex-col items-center">
       <Image
-        className="absolute top-32 sm:top-24 lg:top-32 -left-52 sm:-left-64 lg:-left-24"
+        className="absolute top-32 sm:top-24 lg:top-32 -left-52 sm:-left-64 lg:-left-24 z-10"
         src={Rings}
       />
       <Image

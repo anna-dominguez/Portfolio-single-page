@@ -2,9 +2,9 @@ const experiences = [
   { name: 'HTML', time: '4 Years Experience' },
   { name: 'CSS', time: '4 Years Experience' },
   { name: 'Javascript', time: '4 Years Experience' },
-  { name: 'Accessibility', time: '4 Years Experience' },
-  { name: 'React', time: '3 Years Experience' },
-  { name: 'Sass', time: '3 Years Experience' },
+  { name: 'Accessibility', time: '2 Years Experience' },
+  { name: 'React', time: '2 Years Experience' },
+  { name: 'Sass', time: '2 Years Experience' },
 ]
 
 const Experiences = () => (

@@ -1,8 +1,6 @@
 import Image from 'next/image'
 
-import ProfileMobile from '../public/images/image-profile-mobile.webp'
-import ProfileTablet from '../public/images/image-profile-tablet.webp'
-import ProfileDesktop from '../public/images/image-profile-desktop.webp'
+import Profile from '../public/images/image-profile.jpeg'
 import Banner from './Banner'
 
 const Header = () => {
@@ -11,11 +9,11 @@ const Header = () => {
       <Banner />
       <Image
         placeholder="blur"
-        className="absolute sm:hidden top-0 z-0"
+        className="absolute sm:hidden top-20 z-0"
         alt="Profile picture"
         width="175"
         height="242"
-        src={ProfileMobile}
+        src={Profile}
       />
       <Image
         placeholder="blur"
@@ -23,7 +21,7 @@ const Header = () => {
         alt="Profile picture"
         width="322"
         height="600"
-        src={ProfileTablet}
+        src={Profile}
       />
       <Image
         placeholder="blur"
@@ -31,7 +29,7 @@ const Header = () => {
         alt="Profile picture"
         width="445"
         height="720"
-        src={ProfileDesktop}
+        src={Profile}
       />
     </header>
   )
