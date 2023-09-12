@@ -39,7 +39,9 @@ const Projects = () => {
         <div className="mt-5 text-headingXS">Dictionary Web App</div>
         <div className="text-grey grid grid-flow-col auto-cols-min gap-x-2 text-bodyS">
           <div>HTML</div>
-          <div>CSS</div>
+          <div>TailwindCSS</div>
+          <div>ReactJS</div>
+          <div>Next</div>
         </div>
         <div className="mt-5 grid grid-flow-col auto-cols-max gap-x-7 lg:hidden">
           <a
@@ -489,8 +491,9 @@ const Projects = () => {
         </div>
         <div className="text-grey grid grid-flow-col auto-cols-min gap-x-2 text-bodyS">
           <div>HTML</div>
-          <div>CSS</div>
-          <div>JavaScript</div>
+          <div>TailwindCSS</div>
+          <div>ReactJS</div>
+          <div>Next</div>
         </div>
         <div className="mt-5 grid grid-flow-col auto-cols-max gap-x-7 lg:hidden">
           <a
