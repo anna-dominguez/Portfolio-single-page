@@ -529,11 +529,10 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="mt-5 text-headingXS">Memory Game</div>
+        <div className="mt-5 text-headingXS">NFT preview card</div>
         <div className="text-grey grid grid-flow-col auto-cols-min gap-x-2 text-bodyS">
           <div>HTML</div>
-          <div>CSS</div>
-          <div>JavaScript</div>
+          <div>SASS</div>
         </div>
         <div className="mt-5 grid grid-flow-col auto-cols-max gap-x-7 lg:hidden">
           <a
