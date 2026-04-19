@@ -1,6 +1,6 @@
 const Socials = () => (
   <div className="w-full grid gap-5 sm:flex sm:justify-between sm:object-center">
-    <div className="text-center font-bold text-headingXS sm:text-headingS tracking-[-0.44px] z-50">
+    <div className="text-center font-bold text-heading-xs sm:text-heading-s tracking-[-0.44px] z-50">
       annadominguez
     </div>
     <div className="grid grid-flow-col content-evenly gap-6 sm:gap-8 lg:mr-7 z-50">

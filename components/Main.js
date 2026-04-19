@@ -11,7 +11,7 @@ const Main = () => {
 			<Experiences />
 			<section className="my-20 sm:my-24 lg:my-36">
 				<div className="flex items-center justify-between mb-10 sm:mb-14 lg:mb-20">
-					<h2 className="font-bold text-headingM sm:heading-XL lg:text-headingXXL tracking-[-1.14px] sm:tracking-[-2.05px] lg:tracking-[-2.5px]">
+					<h2 className="font-bold text-heading-m sm:text-heading-xl lg:text-heading-xxl tracking-[-1.14px] sm:tracking-[-2.05px] lg:tracking-[-2.5px]">
 						Projects
 					</h2>
 					<a className="btn-primary" href="#contact">

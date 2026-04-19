@@ -1,15 +1,40 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-dark: #151515;
+  --color-dark-grey: #242424;
+  --color-red: #FF6F5B;
+  --color-green: #4EE1A0;
+  --color-grey: #d9d9d9;
+
+  --text-heading-xxl: 88px;
+  --text-heading-xxl--line-height: 88px;
+  --text-heading-xl: 72px;
+  --text-heading-xl--line-height: 72px;
+  --text-heading-l: 48px;
+  --text-heading-l--line-height: 56px;
+  --text-heading-m: 40px;
+  --text-heading-m--line-height: 40px;
+  --text-heading-s: 32px;
+  --text-heading-s--line-height: 40px;
+  --text-heading-xs: 24px;
+  --text-heading-xs--line-height: 32px;
+  --text-body-m: 18px;
+  --text-body-m--line-height: 28px;
+  --text-body-s: 16px;
+  --text-body-s--line-height: 26px;
+
+  --font-sans: 'Space Grotesk', sans-serif;
+}
 
 @layer components {
   .btn-primary {
-    @apply hover:text-green pb-3 cursor-pointer border-solid border-b-2 border-green text-bodyS uppercase tracking-[2.29px];
+    @apply hover:text-green pb-3 cursor-pointer border-solid border-b-2 border-green text-body-s uppercase tracking-[2.29px];
   }
   .social {
     @apply fill-white hover:fill-green cursor-pointer;
   }
   .input {
-    @apply uppercase text-bodyS tracking-[-0.22px] bg-darkGrey w-full pl-6;
+    @apply uppercase text-body-s tracking-[-0.22px] bg-dark-grey w-full pl-6;
   }
 }

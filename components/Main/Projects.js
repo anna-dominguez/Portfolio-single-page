@@ -36,8 +36,8 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="mt-5 text-headingXS">Dictionary Web App</div>
-        <div className="text-grey grid grid-flow-col auto-cols-min gap-x-2 text-bodyS">
+        <div className="mt-5 text-heading-xs">Dictionary Web App</div>
+        <div className="text-grey grid grid-flow-col auto-cols-min gap-x-2 text-body-s">
           <div>HTML</div>
           <div>TailwindCSS</div>
           <div>ReactJS</div>
@@ -84,8 +84,8 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="mt-5 text-headingXS">Body Mass Index Calculator</div>
-        <div className="text-grey grid grid-flow-col auto-cols-min gap-x-2 text-bodyS">
+        <div className="mt-5 text-heading-xs">Body Mass Index Calculator</div>
+        <div className="text-grey grid grid-flow-col auto-cols-min gap-x-2 text-body-s">
           <div>Next</div>
           <div>TailwindCSS</div>
         </div>
@@ -131,8 +131,8 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="mt-5 text-headingXS">E-commerce product page</div>
-        <div className="text-grey grid grid-flow-col auto-cols-min gap-x-2 text-bodyS">
+        <div className="mt-5 text-heading-xs">E-commerce product page</div>
+        <div className="text-grey grid grid-flow-col auto-cols-min gap-x-2 text-body-s">
           <div>Next</div>
           <div>TailwindCSS</div>
         </div>
@@ -177,10 +177,10 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="mt-5 text-headingXS">
+        <div className="mt-5 text-heading-xs">
           Space tourism multi-page website
         </div>
-        <div className="text-grey grid grid-flow-col auto-cols-min gap-x-2 text-bodyS">
+        <div className="text-grey grid grid-flow-col auto-cols-min gap-x-2 text-body-s">
           <div>Next</div>
           <div>TailwindCSS</div>
         </div>
@@ -221,8 +221,8 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="mt-5 text-headingXS">News Homepage</div>
-        <div className="text-grey grid grid-flow-col auto-cols-min gap-x-2 text-bodyS">
+        <div className="mt-5 text-heading-xs">News Homepage</div>
+        <div className="text-grey grid grid-flow-col auto-cols-min gap-x-2 text-body-s">
           <div>Next</div>
           <div>TailwindCSS</div>
         </div>
@@ -263,8 +263,8 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="mt-5 text-headingXS">Notification Page</div>
-        <div className="text-grey grid grid-flow-col auto-cols-min gap-x-2 text-bodyS">
+        <div className="mt-5 text-heading-xs">Notification Page</div>
+        <div className="text-grey grid grid-flow-col auto-cols-min gap-x-2 text-body-s">
           <div>Next</div>
           <div>TailwindCSS</div>
         </div>
@@ -305,8 +305,8 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="mt-5 text-headingXS">Age Calculator</div>
-        <div className="text-grey grid grid-flow-col auto-cols-min gap-x-2 text-bodyS">
+        <div className="mt-5 text-heading-xs">Age Calculator</div>
+        <div className="text-grey grid grid-flow-col auto-cols-min gap-x-2 text-body-s">
           <div>Next</div>
           <div>TailwindCSS</div>
         </div>
@@ -347,8 +347,8 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="mt-5 text-headingXS">Multi Step Form</div>
-        <div className="text-grey grid grid-flow-col auto-cols-min gap-x-2 text-bodyS">
+        <div className="mt-5 text-heading-xs">Multi Step Form</div>
+        <div className="text-grey grid grid-flow-col auto-cols-min gap-x-2 text-body-s">
           <div>Next</div>
           <div>TailwindCSS</div>
         </div>
@@ -393,8 +393,8 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="mt-5 text-headingXS">E-learning landing page</div>
-        <div className="text-grey grid grid-flow-col auto-cols-min gap-x-2 text-bodyS">
+        <div className="mt-5 text-heading-xs">E-learning landing page</div>
+        <div className="text-grey grid grid-flow-col auto-cols-min gap-x-2 text-body-s">
           <div>HTML</div>
           <div>CSS</div>
         </div>
@@ -439,8 +439,8 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="mt-5 text-headingXS">Equalizer Langing Page</div>
-        <div className="text-grey grid grid-flow-col auto-cols-min gap-x-2 text-bodyS">
+        <div className="mt-5 text-heading-xs">Equalizer Langing Page</div>
+        <div className="text-grey grid grid-flow-col auto-cols-min gap-x-2 text-body-s">
           <div>HTML</div>
           <div>CSS</div>
           <div>JavaScript</div>
@@ -486,10 +486,10 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="mt-5 text-headingXS">
+        <div className="mt-5 text-heading-xs">
           Product preview card component
         </div>
-        <div className="text-grey grid grid-flow-col auto-cols-min gap-x-2 text-bodyS">
+        <div className="text-grey grid grid-flow-col auto-cols-min gap-x-2 text-body-s">
           <div>HTML</div>
           <div>TailwindCSS</div>
           <div>ReactJS</div>
@@ -532,8 +532,8 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="mt-5 text-headingXS">NFT preview card</div>
-        <div className="text-grey grid grid-flow-col auto-cols-min gap-x-2 text-bodyS">
+        <div className="mt-5 text-heading-xs">NFT preview card</div>
+        <div className="text-grey grid grid-flow-col auto-cols-min gap-x-2 text-body-s">
           <div>HTML</div>
           <div>SASS</div>
         </div>
